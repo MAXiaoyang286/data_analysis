@@ -3,7 +3,7 @@ from PIL import Image
 import streamlit as st
 
 # Streamlit UI
-st.title("Age Classification using ViT")
+st.title("111Age Classification using ViT")
 
 # 定义图片大小调整函数
 def resize_image_if_needed(image, max_width=1000, max_height=1000):

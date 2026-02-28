@@ -11,8 +11,7 @@ st.title("Age Classification using ViT")
 def load_age_classifier():
     """加载并缓存年龄分类器"""
     return pipeline("image-classification",
-                    model="nateraw/vit-age-classifier",
-                    device=-1)  # 强制使用CPU
+                    model="nateraw/vit-age-classifier")  # 强制使用CPU
 
 # 图片预处理函数
 def preprocess_image(image_path, max_size=(1000, 1000)):
